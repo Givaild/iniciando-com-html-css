@@ -6,7 +6,7 @@
 
 <body>
     <h2>Formulário</h2>
-    <form action="exercicios.html">
+    <form action="exercicios.html" method="post">
         <div>
             <div>
                 <label for="nome">Nome</label>
@@ -42,6 +42,24 @@
             <label for="Sitio">Sitio</label>
             <input type="radio" name="residencia" id="Fazenda" value="Fazenda">
             <label for="Fazenda">Fazenda</label>
+        </div>
+
+        <div>
+            <div>Interesses</div>
+            <input type="checkbox" name="Tec" id="Tec">
+            <label for="Tec">Tecnologia</label>
+            <input type="checkbox" name="esporte" id="esporte">
+            <label for="esporte">esporte</label>
+            <input type="checkbox" name="Cinema" id="musica">
+            <label for="Cinema">Cinema</label>
+        </div>
+
+        <div>
+            <select name="Plano" id="Plano">
+                <Option value="gratis">Plano Gratuito</Option>
+                <option value="silver">Pano Silver - R$ 59,00</option>
+                <option value="gold">Pano Gold - R$ 89,00</option>
+            </select>
         </div>
 
         <div>
